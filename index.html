@@ -5,20 +5,23 @@
         <link href="./styles.css" rel="stylesheet">
     </head>
     <body>
+        <div class="container">
         <nav >
             <div>
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <a href="#">Button</a>
-            <a href="#">icone</a>
+            <a  href="#">
+            <button class="btn-login">
+                Fazer login
+            </button>
+            </a>
             </div>
         </nav>
         <main>
-            <div class="img-container">
             <img class="img-style"src="./img/google-logo.png" alt="Logo"/>
-            </div>
             <form>
-                <div class="img-container">
+                <div class="input-container">
+                    <img class="img-search" src="./img/Union.svg"/>
                     <input class="input-style"type="text" />
                 </div>
                 <div class="button-container">
@@ -28,16 +31,26 @@
             </form>
             <p class="text-style">Disponibilizado pelo Google em: <a>English</a></p>
         </main>
+        </div>
     </body>
     <footer>
-        <nav>
+        <div class="footer-menu">
+            <p class="text-footer">Brasil</p>
+        </div>
             <div class="footer-menu">
-                <p class="text-footer">Brasil</p>
+                <div>
+                    <a class="footer-link" href="#">Sobre</a>
+                    <a class="footer-link" href="#">Publicidade</a>
+                    <a class="footer-link" href="#">Negócios</a>
+                    <a class="footer-link" href="#">Como Funciona a Pesquisa</a>
+                </div>
+                <div>
+                    <a class="footer-link" href="#">Privacidade</a>
+                    <a class="footer-link" href="#">Termos</a>
+                    <a href="#">Configurações</a>
+                </div>
             </div>
-            <div class="footer-menu">
-                Brasil
-            </div>
-        </nav>
+
         
     </footer>
 </html>
